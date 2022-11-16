@@ -1,0 +1,103 @@
+.profile-conatiner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.profile-job-details{
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-details-error-view-container{
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+    
+}
+.product-details-error-view-container button{
+    background-color: #6366f1;
+    font-size: 19px;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.filters-profile-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.conatiner{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.filters-conatiner{
+    min-width: 300px;
+}
+.jobs-conatiner {
+    width: 800px;
+    margin-right: 40px;
+}
+.search-input {
+        padding: 18px 42px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        border: 1px solid #cbd2d9 ;
+        margin-top: 10px;
+        background-color: transparent;
+        font-size:22px;
+        color: #fff;
+}
+.profile-card{
+    margin-left: 100px;
+}
+.products-details-loader-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.search-conatiner-icon{
+    position: absolute;
+    margin-left: -60px;
+    text-align: center;
+    margin-top: 11px;
+    background-color: #272727;
+    padding: 21px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border: none;
+}
+.search-conatiner input{
+    width: 100%;
+   
+}
+.search-conatiner {
+    margin-left: 50px;
+}
+.type1 label{
+    color: #fff;
+}
+.logo h3{
+    font-size: 22px;
+}
+.profile-content p{
+    font-size: 18px;
+}
+body{
+    background-color: black;
+}
+.filters-conatiner h2{
+  color: #fff;
+}
+.products-details-loader-container{
+    margin-right: 140px;
+}

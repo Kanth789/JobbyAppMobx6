@@ -1,0 +1,60 @@
+.profile-job-conatiners{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card{
+    color: #fff;
+    background-color:#202020;
+    padding: 30px;
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card-img img{
+  width: 80px;
+}
+.card-img-header,.card-location-work{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-header{
+    margin-left: 17px;
+}
+.location,.work{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-header-rating{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.card-header h4{
+    font-size: 22px;
+    margin-bottom: 3px;
+    margin-top: 4px;
+}
+.card-header-rating p{
+    font-size: 20px;
+}
+.location p,.work p,.card-salary p{
+    font-size: 20px;
+    margin-left: 7px;
+}
+.card h4{
+    font-size: 25px;
+}
+.card p{
+    font-size: 21px;
+}

@@ -1,0 +1,67 @@
+.skills-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 40px;
+}
+.life-at-company-desc{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.similar-job-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    margin-top: 50px;
+
+}
+.smiliar-card{
+    color: #fff;
+    background-color:#202020;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+body{
+    background-color: #000000;
+}
+.visit-link,.descripition-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.job-similar{
+    max-width: 1300px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.life-at-compny{
+    margin-top: 40px;
+}
+.life-at-compny h3{
+    font-size: 25px;
+}
+.life-at-company-desc p{
+    width: 800px;
+    margin-top: 44px;
+}
+.life-at-company-desc img{
+    width: 400px;
+}
+.skill-conatiner h3{
+    font-size: 25px;
+}
+.icon p{
+    margin-left: 16px;
+}
+.similar-content {
+    width: 300px;
+}
